@@ -27,55 +27,56 @@ body{
     width: 40rem;
     border: 2px black solid;
    }
- main:hover, .pics:hover  {
-    transform: rotate(-65deg);
-    transition: 4s;
- }
- #main .one {
+
+ .one {
     left: 4rem;
+    top: 9rem;
+    transform: rotate(80deg);
+    transition: 0.9s;
+    z-index: 1;
  }
- #main .two {
-    left: 20rem;
-    top: 19rem;
+ .one:hover {
+    transform: rotate(0deg);
+    transition: 2s;
+    filter: grayscale(0);
+    transition: 0.9s;
+}
+.two {
+    top: 25rem;
+    left: 19rem;
+    transform: rotate(180deg);
+    transition: 0.9s;
  }
- #main .three {
-    left: 28rem;
+ .two:hover {
+    transition: 0.9s;
+    filter: grayscale(0);
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+ .three {
+    left: 36rem;
     top: 4rem;
+    transform: rotate(-340deg);
+    transition: 0.9s;
  }
- #main .four {
-    left: 38rem;
-    top: 10rem;
+ .three:hover {
+    transform: rotate(0deg);
+    transition: 2s;
+    filter: grayscale(0);
+    z-index: 1;
+}
+ .four {
+    left: 45rem;
+    top: 25rem;
+    transition: 0.9s;
+    transform: rotate(150deg);
  }
-.one:hover {
-    left: 5rem;
-    transform: rotate(25deg);
-    transition: 2s;
-    filter: grayscale(0);
-}
-
-
-.two:hover {
-    left: 0;
-    transform: rotate(360deg);
-    transition: 2s;
-    filter: grayscale(0);
-}
-
-
-}
-.three:hover {
-    top: 10rem;
-    z-index: 0;
-    transform: rotate(-360deg);
-    transition: 2s;
-    z-index: 0;
-    filter: grayscale(0);
-}
-
 
 .four:hover {
-    left: 0;
-    transform: rotate(-25deg);
-    transition: 2s;
+    transition: 0.9s;
     filter: grayscale(0);
+    transform: rotate(0deg);
+    z-index: 1;
+    
 }
