@@ -5,33 +5,34 @@ body{
     width: 90%;
     height: 90rem;
     margin: 5%;
-    background: transparent;
+    background: blue;
     display: flex;
     justify-content: space-around;
+    
+
 }
 .pics {
-    background: transparent;
-    color: #ffffff;
+    background: white;
     text-align: center;
     width: 40rem;
-    margin: 0 0 0 0;
-    height: 40rem;
+    height: 49rem;
     background-repeat: no-repeat;
-    position: absolute;
     filter: grayscale(1);
     border: 2px black solid;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
+    position: absolute;
+
+    box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.336);
 }
 #main img {
-    height: 40rem;
+    height: 49rem;
     width: 40rem;
-    border: 2px black solid;
    }
 
  .one {
-    left: 4rem;
-    top: 9rem;
-    transform: rotate(80deg);
+    left: 76rem;
+    top: 14rem;
+    transform: rotate(45deg);
     transition: 0.9s;
     z-index: 1;
  }
@@ -42,9 +43,9 @@ body{
     transition: 0.9s;
 }
 .two {
-    top: 25rem;
-    left: 19rem;
-    transform: rotate(180deg);
+    left: 100rem;
+    top: 8rem;
+    transform: rotate(-225deg);
     transition: 0.9s;
  }
  .two:hover {
@@ -55,9 +56,9 @@ body{
 }
 
  .three {
-    left: 36rem;
-    top: 4rem;
-    transform: rotate(-340deg);
+    left: 94rem;
+    top: 39rem;
+    transform: rotate(45deg);
     transition: 0.9s;
  }
  .three:hover {
@@ -67,10 +68,10 @@ body{
     z-index: 1;
 }
  .four {
-    left: 45rem;
-    top: 25rem;
+    left: 103rem;
+    top: 24rem;
+    transform: rotate(225deg);
     transition: 0.9s;
-    transform: rotate(150deg);
  }
 
 .four:hover {
@@ -78,5 +79,4 @@ body{
     filter: grayscale(0);
     transform: rotate(0deg);
     z-index: 1;
-    
 }
