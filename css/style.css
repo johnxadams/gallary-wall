@@ -13,21 +13,39 @@ body{
     background: transparent;
     color: #ffffff;
     text-align: center;
-    width: 18%;
+    width: 40rem;
     margin: 0 0 0 0;
-    height: 50rem;
-    background-size: contain;
+    height: 40rem;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     filter: grayscale(1);
+    border: 2px black solid;
+    padding-bottom: 5rem;
 }
-/* main:hover, .pics:hover  {
+#main img {
+    height: 40rem;
+    width: 40rem;
+    border: 2px black solid;
+   }
+ main:hover, .pics:hover  {
     transform: rotate(-65deg);
     transition: 4s;
-} */
-.one {
-    background-image: url("../images/sybiria.jpg");
-}
+ }
+ #main .one {
+    left: 4rem;
+ }
+ #main .two {
+    left: 20rem;
+    top: 19rem;
+ }
+ #main .three {
+    left: 28rem;
+    top: 4rem;
+ }
+ #main .four {
+    left: 38rem;
+    top: 10rem;
+ }
 .one:hover {
     left: 5rem;
     transform: rotate(25deg);
@@ -35,9 +53,7 @@ body{
     filter: grayscale(0);
 }
 
-.two {
-    background-image: url(../images/john-html.jpg);
-}
+
 .two:hover {
     left: 0;
     transform: rotate(360deg);
@@ -46,8 +62,6 @@ body{
 }
 
 
-.three {
-    background-image: url("../images/sybiria.jpg");
 }
 .three:hover {
     top: 10rem;
@@ -58,9 +72,7 @@ body{
     filter: grayscale(0);
 }
 
-.four {
-    background-image: url(../images/john-html.jpg);
-}
+
 .four:hover {
     left: 0;
     transform: rotate(-25deg);
