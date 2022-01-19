@@ -1,82 +1,106 @@
-body{
-    margin: 0%;
+* {
+    font-size: 16px;
+}
+body {
+  margin: 0%;
 }
 #main {
-    width: 90%;
-    height: 90rem;
-    margin: 5%;
-    background: blue;
-    display: flex;
-    justify-content: space-around;
-    
-
+  width: 90%;
+  height: 90rem;
+  margin: 5%;
+  background: rgba(137, 43, 226, 0.644);
+  display: flex;
+  justify-content: space-around;
 }
 .pics {
-    background: white;
-    text-align: center;
-    width: 40rem;
-    height: 49rem;
-    background-repeat: no-repeat;
-    filter: grayscale(1);
-    border: 2px black solid;
-    padding-bottom: 6rem;
-    position: absolute;
+  background: white;
+  text-align: center;
+  width: 40rem;
+  height: 49rem;
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+  border: 2px black solid;
+  padding-bottom: 6rem;
+  position: absolute;
 
-    box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.336);
+  box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.336);
 }
 #main img {
-    height: 49rem;
-    width: 40rem;
-   }
-
- .one {
-    left: 76rem;
-    top: 14rem;
-    transform: rotate(45deg);
-    transition: 0.9s;
-    z-index: 1;
- }
- .one:hover {
-    transform: rotate(0deg);
-    transition: 2s;
-    filter: grayscale(0);
-    transition: 0.9s;
-}
-.two {
-    left: 100rem;
-    top: 8rem;
-    transform: rotate(-225deg);
-    transition: 0.9s;
- }
- .two:hover {
-    transition: 0.9s;
-    filter: grayscale(0);
-    transform: rotate(0deg);
-    z-index: 1;
+  height: 49rem;
+  width: 40rem;
 }
 
- .three {
-    left: 94rem;
-    top: 39rem;
-    transform: rotate(45deg);
-    transition: 0.9s;
- }
- .three:hover {
-    transform: rotate(0deg);
-    transition: 2s;
-    filter: grayscale(0);
+.blue-beanie {
+  left: 76rem;
+  top: 21rem;
+  transform: rotate(45deg);
+  transition: 1.9s;
+  z-index: 1;
+}
+.blue-beanie:hover {
+  transform: rotate(-10deg);
+  filter: grayscale(0);
+  transition: 0.9s;
+}
+.lavendel {
+  left: 100rem;
+  top: 8rem;
+  transform: rotate(-225deg);
+  transition: 1.9s;
+}
+.lavendel:hover {
+  transition: 0.9s;
+  filter: grayscale(0);
+  transform: rotate(0deg);
+  z-index: 1;
+}
+
+.sunset-sea {
+  left: 94rem;
+  top: 53rem;
+  transform: rotate(45deg);
+  transition: 1.2s;
+}
+.sunset-sea:hover {
+  transform: rotate(10deg);
+  transition: 0.9s;
+  filter: grayscale(0);
+  z-index: 1;
+}
+.beach-side {
+  left: 113rem;
+  top: 24rem;
+  transform: rotate(225deg);
+  transition: 1s;
+}
+
+.beach-side:hover {
+  transition: 0.9s;
+  filter: grayscale(0);
+  transform: rotate(275deg);
+  z-index: 1;
+}
+#main span {
+  height: 25rem;
+  width: 45rem;
+  position: absolute;
+  top: 40%;
+  right: 8%;
+  z-index: 1;
+}
+#main span h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    word-spacing: .7rem;
+    letter-spacing: 0.058rem;
     z-index: 1;
 }
- .four {
-    left: 103rem;
-    top: 24rem;
-    transform: rotate(225deg);
-    transition: 0.9s;
- }
-
-.four:hover {
-    transition: 0.9s;
-    filter: grayscale(0);
-    transform: rotate(0deg);
+span h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+    word-spacing: .7rem;
+    letter-spacing: 0.15rem;
     z-index: 1;
 }
