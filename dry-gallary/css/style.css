@@ -16,3 +16,25 @@ body {
     right: 30%;
     transform: rotate(-40deg);
 }
+#lavendel {
+    top: 25%;
+    right: 40%;
+    transform: rotate(-70deg);
+}
+#sunset-sea {
+    top: 45%;
+    right: 30%;
+    transform: rotate(-100deg);
+}
+#meditate {
+    top: 25%;
+    right: 15%;
+    transform: rotate(55deg)
+}
+#blue-beanie:hover,
+#lavendel:hover,
+#sunset-sea:hover,
+#meditate:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
