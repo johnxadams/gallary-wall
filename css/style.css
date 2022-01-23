@@ -6,17 +6,18 @@ body {
 }
 #main {
   width: 90%;
-  height: 90rem;
+  height: 50rem;
   margin: 5%;
   background: rgba(137, 43, 226, 0.644);
+  position: relative;
   display: flex;
   justify-content: space-around;
 }
 .pics {
   background: white;
   text-align: center;
-  width: 40rem;
-  height: 49rem;
+  height: 25rem;
+  width: 20rem;
   background-repeat: no-repeat;
   filter: grayscale(1);
   border: 2px black solid;
@@ -26,13 +27,13 @@ body {
   box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.336);
 }
 #main img {
-  height: 49rem;
-  width: 40rem;
+  height: 29rem;
+  width: 20rem;
 }
 
 .blue-beanie {
-  left: 76rem;
-  top: 21rem;
+  left: 16rem;
+  top: 1rem;
   transform: rotate(45deg);
   transition: 1.9s;
   z-index: 1;
@@ -43,8 +44,8 @@ body {
   transition: 0.9s;
 }
 .lavendel {
-  left: 100rem;
-  top: 8rem;
+  left: 10rem;
+  top: 4rem;
   transform: rotate(-225deg);
   transition: 1.9s;
 }
@@ -56,8 +57,8 @@ body {
 }
 
 .sunset-sea {
-  left: 94rem;
-  top: 53rem;
+  left: 14rem;
+  top: 13rem;
   transform: rotate(45deg);
   transition: 1.2s;
 }
@@ -68,8 +69,8 @@ body {
   z-index: 1;
 }
 .beach-side {
-  left: 113rem;
-  top: 24rem;
+  left: 24rem;
+  top: 9rem;
   transform: rotate(225deg);
   transition: 1s;
 }
@@ -85,21 +86,21 @@ body {
   width: 45rem;
   position: absolute;
   top: 40%;
-  right: 8%;
+  right: 2%;
   z-index: 1;
 }
 #main span h1 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 3rem;
-    line-height: 4.5rem;
-    word-spacing: .7rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    word-spacing: .4rem;
     letter-spacing: 0.058rem;
     z-index: 1;
 }
 span h2 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 2.5rem;
-    line-height: 4.5rem;
+    font-size: 1.9rem;
+    line-height: 1.2rem;
     word-spacing: .7rem;
     letter-spacing: 0.15rem;
     z-index: 1;
