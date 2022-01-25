@@ -36,8 +36,8 @@ h1, h2 {
     transition: 1.5s;
 }
 #blue-beanie {
-    top: 10%;
-    right: 30%;
+    top: 13%;
+    right: 28%;
     transform: rotate(-40deg);
 }
 #lavendel {
@@ -46,7 +46,7 @@ h1, h2 {
     transform: rotate(-70deg);
 }
 #sunset-sea {
-    top: 45%;
+    top: 43%;
     right: 30%;
     transform: rotate(-100deg);
 }

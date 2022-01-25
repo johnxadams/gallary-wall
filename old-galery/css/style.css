@@ -81,7 +81,7 @@ body {
   transform: rotate(275deg);
   z-index: 1;
 }
-#main > span {
+#main span {
   height: 25rem;
   width: 45rem;
   position: absolute;
@@ -89,7 +89,7 @@ body {
   right: 2%;
   z-index: 1;
 }
-#main > span > h1 {
+#main span h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.5rem;
     line-height: 2.5rem;
